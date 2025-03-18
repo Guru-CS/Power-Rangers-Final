@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Bigcool;
+    src: url(Revamped.otf);
+}
+@font-face {
+    font-family: para;
+    src: url(FortunerHeavyPersonalUse.otf);
+}
+.BigCool{
+    font-family: Bigcool;
+
+}
+.smallcool{
+    font-family:Bigcool
+}
+
+p{
+font-family: para;
+
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to right,purple,red,orange,yellow,green,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+
+}
+
+body{
+    background-image: linear-gradient(to right,Yellow, Green,  Blue,  Violet, Red,  Orange); 
+    text-align: center;
+}
+.zord{
+    margin-left: auto;
+    margin-right: 250px;
+    
+}
+#link {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: bold;
+}
+.chek {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: bold;
+    color:aquamarine
+}
+a:hover{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to right,purple,red,orange,yellow,green,blue);
+    text-decoration: underline;
+    -webkit-background-clip: text ;
+    -webkit-background-clip: underline ;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    
+}
